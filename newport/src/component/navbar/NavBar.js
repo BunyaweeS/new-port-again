@@ -2,6 +2,7 @@ import React from 'react';
 import './NavBar.css';
 import communicate from '../../assets/communicate.png'
 import {Link} from 'react-scroll'
+export const NavBar = () => {
 return (
     <nav className='navbar'>
         
@@ -17,5 +18,4 @@ return (
     </nav>
   )
 
-
-export default NavBar
+}
