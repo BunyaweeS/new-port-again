@@ -4,10 +4,11 @@
     box-sizing: border-box;
     text-decoration: none;
     background: transparent;
+    font-family: 'Lato',sans-serif;
 }
 body {
-    background: #A569BD;
-    color: aliceblue;
+    background: #001A65;
+    color: #49E4EE;
     overflow: hidden;
     overflow-y: scroll;
 }

@@ -1,7 +1,26 @@
 import React from 'react'
-
-export const Intro = () => {
+import './Intro.css' 
+import me from '../../assets/me.png'
+ const Intro = () => {
   return (
-    <div>Intro</div>
+    <section id="intro"> 
+        <div className='introContent'> 
+        <span className='hello'>Hello there!</span>
+        <span className='introText'>
+        I'm
+        <span className='introName'> Bunyawee Srithong</span>
+        <br/>
+        A front-End Developer
+        </span>
+        <p className='introPara'>
+            I'm a student of KING MONGKUT'S UNIVERSITY OF TECHNOLOGY NORTH BANGKOK
+            <br/>
+            Electronics EngineeringTechnology (Computer) Student
+        </p>
+        </div>
+        <img src={me} alt='' className='bg'></img>
+    </section>
   )
+
 }
+export default Intro
