@@ -14,7 +14,6 @@ const Skills = () => {
          <div className='skillsBar'> 
          <img src={css} alt='' className='skillsImg'/>
          <div className='skillsBarText'>
-            <h2></h2>
             <p>CSS</p>
          </div>
          </div>
@@ -22,7 +21,6 @@ const Skills = () => {
          <div className='skillsBar'> 
           <img src={html} alt=''className='skillsImg'/>
           <div className='skillsBarText'>
-            <h2></h2>
             <p>HTML</p>
          </div>
          </div>
@@ -30,7 +28,6 @@ const Skills = () => {
          <div className='skillsBar'> 
          <img src={javascript} alt=''className='skillsImg'/>
           <div className='skillsBarText'>
-            <h2></h2>
             <p>javascript</p>
          </div>
          </div>
@@ -38,23 +35,23 @@ const Skills = () => {
          <div className='skillsBar'> 
          <img src={python} alt=''className='skillsImg'/>
           <div className='skillsBarText'>
-            <h2></h2>
             <p>Python</p>
          </div>
          </div>
-
-         <div className='skillsBar'> 
-          <div className='skillsBarText'>
+         </div>
+         
+         <div className='skillsPara'> 
+          <div >
             <h2>Tools</h2>
-            <p className='skillsPara'>Visual Studio Code </p>
-            <p className='skillsPara'>MATLAB</p>
-            <p className='skillsPara'>Arduino IDE</p>
-            <p className='skillsPara'>Flutter</p>
+            <p className=''>Visual Studio Code </p>
+            <p className=''>MATLAB</p>
+            <p className=''>Arduino IDE</p>
+            <p className=''>Flutter</p>
            
          </div>
          </div>
 
-      </div>
+      
         </section>
         
 

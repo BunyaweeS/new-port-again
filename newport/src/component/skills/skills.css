@@ -9,6 +9,7 @@
     justify-content: center;
     text-align: center;
     margin: 0 auto;
+    
 
 }
 
@@ -20,17 +21,19 @@
 }
 
 .skillsPara {
-    font-weight: 100;
-    font-size: 1rem;
-    max-width: 50rem;
-    padding: 0 2rem;
+    
+    
+} 
+.skillsPara p {
+    
 }
 
 .skillsBar {
-    margin: 1.5em;
+    margin: 3rem;
     width: 100vw;
     max-width: 80%;
-    text-align: left;
+    text-align: center;
+    display: flex;
 }
 
 .skillsImg {
@@ -38,14 +41,18 @@
     height: 3rem;
     width: 3rem;
     margin-right:2rem;
+    
 
 }
 
 .skillsBarText>p {
     font-size: 1rem;
     font-weight:1rem;
+    
 
 }
+
+
 
 @media screen and (max-width:720px){
     .skillsBarText>p {

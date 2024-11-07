@@ -9,7 +9,21 @@
 
 .ContactImg {
     object-fit: cover;
-    height: 20rem;
-    margin: 0.5rem;
+    height: 3rem;
+    width: 3rem;
+    margin-right:2rem;
+    
 
+
+}
+
+.ContactAll {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.contactFace {
+    color: white;
 }
