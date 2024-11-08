@@ -29,6 +29,13 @@ const Works = () =>  {
           <img src={normal}/>
         </div>
 
+        <div className='workLego'>
+          <h2>Classification of Lego brick image using MATLAB</h2>
+          <span> training dataset lego brick images to tell what type it is </span>
+          <img src={guitest}/>
+
+        </div>
+
 
         
 

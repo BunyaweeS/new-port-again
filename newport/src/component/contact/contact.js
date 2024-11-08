@@ -3,6 +3,7 @@ import React from 'react'
 import email from '../../assets/email.png'
 import facebook from '../../assets/facebook.png'
 import phoneCall from '../../assets/phoneCall.png'
+import github from '../../assets/github.png'
 import  './contact.css' 
 const Contact = () => {
   return (
@@ -23,6 +24,11 @@ const Contact = () => {
         <div className='contactPic'>
         <img src={phoneCall} className='ContactImg' />
         <p>0980604445</p>
+        </div>
+
+        <div className='contactPic'>
+        <img src={github} className='ContactImg' />
+        <a href='https://github.com/BunyaweeS'className='contactFace'>Github</a>
         </div>
 
         </div>

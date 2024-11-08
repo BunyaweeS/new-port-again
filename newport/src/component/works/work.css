@@ -19,10 +19,12 @@
 .worksDesc {
     font-weight: 300;
     font-size: 1rem;
-    max-width: 45rem;
+    max-width: 70rem;
     justify-content: center;
-    text-align: center;
-    padding: 30px;
+    text-align: right;
+    padding: 20px;
+    display: grid;
+    
     
 }
 
@@ -89,6 +91,21 @@
     margin: 1rem
 }
 
+.workLego {
+    margin: 1rem;
+    text-align: center;
+}
+
+.workLego span {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.workLego img {
+    padding: 5rem;
+    width: 50rem;
+    height: 50rem;
+}
 
 @media screen and (max-width:585px) {
     .workImgs {

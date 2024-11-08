@@ -16,6 +16,10 @@ import me from '../../assets/me.png'
             I'm a student of KING MONGKUT'S UNIVERSITY OF TECHNOLOGY NORTH BANGKOK
             <br/>
             Electronics EngineeringTechnology (Computer) Student
+            <br/>
+            GPX : 2.63
+            <br/>
+            TOEIC : 635
         </p>
         </div>
         <img src={me} alt='' className='bg'></img>
