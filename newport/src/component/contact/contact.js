@@ -4,6 +4,7 @@ import email from '../../assets/email.png'
 import facebook from '../../assets/facebook.png'
 import phoneCall from '../../assets/phoneCall.png'
 import github from '../../assets/github.png'
+import youtube from '../../assets/youtube.png'
 import  './contact.css' 
 const Contact = () => {
   return (
@@ -29,6 +30,11 @@ const Contact = () => {
         <div className='contactPic'>
         <img src={github} className='ContactImg' />
         <a href='https://github.com/BunyaweeS'className='contactFace'>Github</a>
+        </div>
+
+        <div className='contactPic'>
+        <img src={youtube} className='ContactImg' />
+        <a href='https://www.youtube.com/@shiyobloodfallen3591/featured'className='contactFace'>Youtube</a>
         </div>
 
         </div>

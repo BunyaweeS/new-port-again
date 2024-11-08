@@ -11,10 +11,12 @@ function App() {
       
       <NavBar/>
       <Intro/>
+      <Contact/>
       <Skills/>
       <Works/>
-      <Contact/>
       <Footer/>
+      
+      
 
     </div>
   );

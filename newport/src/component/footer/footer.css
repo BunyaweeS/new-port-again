@@ -1,4 +1,4 @@
-.footer {
+/* .footer {
     width: 100vw;
     height: 4rem;
     display: flex;
@@ -7,4 +7,63 @@
     font-weight: 300;
     font-size: small;
     
+} */
+
+.footerMMD {
+    justify-items: center;
+    margin: 1rem;
+    display: flex;
 }
+
+.footerHobby {
+    justify-items: center;
+    margin: 1rem;
+    text-align: center;
+}
+
+.footerMMD span {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.footerMMD a {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: aliceblue;
+    
+}
+.footerMMD img {
+    padding: 2rem;
+    width: 50rem;
+    height: 50rem;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.footerHead {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.footerDraw {
+    justify-items: center;
+    margin: 1rem;
+    text-align: center;
+}
+
+.footerDraw img {
+    padding: 2rem;
+    width: 50rem;
+    height: 50rem;
+}
+
+
+
